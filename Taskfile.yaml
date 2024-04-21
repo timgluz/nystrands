@@ -1,0 +1,10 @@
+version: "3"
+
+tasks:
+    deps:
+        cmds:
+            - go mod tidy
+
+    "generate:easyjson":
+        cmds:
+            - easyjson -all pkg/openapi.go

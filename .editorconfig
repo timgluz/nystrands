@@ -1,0 +1,18 @@
+# please generate editoconfig file for go language
+# use only spaces for indentation
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+
+[*.go]
+indent_size = 4
+
+[*.yaml, *.yml]
+indent_size = 2
+
+[*.md]
+indent_size = 2
+
